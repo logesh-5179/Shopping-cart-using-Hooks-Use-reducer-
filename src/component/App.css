@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+body{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+body{
+  background-color: #00ff624b;
+}
+.shopping-cart {
+  margin: 0 auto;
+ 
+  text-align: center;
+}
+.product-list {
+  display: flex;
+  justify-content: space-around;
+}
+.product-card {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  
+}
+.product-image {
+  width: 170px;
+  height: 170px;
+  
+}
+h1 {
+  color: #333;
+}
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+p {
+  margin: 10px 0;
+ 
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  padding: 5px 10px;
+  border: none;
+  height: 34px;
+  border-radius: 4px;
+  color: white;
+ 
+  
+}
+.val{
+  font-size: 50px;
+  color: rgb(3, 47, 128);
+}
